@@ -1,0 +1,446 @@
+        body
+        {
+            /*padding: 0;*/
+            /*margin: 0;*/
+            /*background-color: #ECF0F1 ;*/
+        }
+        .header
+        {
+            background: #0b0c1e;
+            width: 100%;
+            height: 100px;
+            background-image: url("../img/bg1.jpg");
+            color: #fff;
+            position: relative;
+            bottom: 2px;
+
+        }
+        .logo
+         {
+            float: left;
+            width: 20%;
+            height:90%;
+         }
+        .logo img
+        {
+            width: 300px;
+            height: 80px;
+            margin: 5px;
+            padding-left: 20px;
+
+        }
+        
+        #nav {
+            overflow: hidden;
+            /*background-color: #013682;*/
+            float: right;
+            /*width: 80%;*/
+            align-items: center;
+
+        }
+        #nav ul{
+            margin : 0;
+            padding: 10px;
+            margin: 20px 0px;
+        }
+        #nav ul li{
+            list-style : none;
+            float: left;
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid white;
+            transition: 1s;
+            background: #0b0c1e;
+        }
+        #nav ul li a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #nav li:hover{
+            background-color: #070711;
+            color: #fff;
+            border-top: 5px solid white;
+        }
+        ul li ul.dropdown{
+            display: none;
+            position: absolute;
+            /*z-index: 999;*/
+            /*right: : 400px;*/
+
+        }
+        ul li:hover ul.dropdown{
+            display: inline-block;
+            margin-left: 0px;
+            margin: 5px;
+        }
+        ul li ul.dropdown li{
+            display: inline-block;
+            margin: 5px;
+
+        }
+        ul li ul.dropdown li a{
+            display: block;
+            width: 150px;
+
+        }
+        #icon_bar
+        {
+            display: none;
+            position: relative;
+            top:-100px;
+        }
+        #icon_pannel
+        {
+            margin: 0;
+            background-image: url("../img/bg.jpg");
+            display: none;
+
+        }
+        #icon_pannel ul{
+            list-style: none;
+            margin: 0px;
+            padding:10px 20px;
+
+        }
+        #icon_pannel ul li{
+            list-style : none;
+            padding: 10px;
+            margin:5px;
+            border: 1px solid white;
+            transition: 1s;
+            text-align: center;
+            background: #0b0c1e;
+        }
+        #icon_pannel ul li a{
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        #icon_pannel ul li:hover{
+            background-color: #070711;
+            color: #fff;
+            border-top: 5px solid white;
+        }
+        .mainSection
+        {
+            background: #070711; /*#0b1d3b, 0b0c1e, 070711, 131c3d*/
+            /*background-image: url("../img/bg.jpg");*/
+            /*position: relative;*/
+            padding: 0px;
+
+        }
+        #slider
+        {
+            width: 100%;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            text-decoration: none;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(255,255,255,0.8);
+            color: #000;
+            text-decoration: none;
+
+        }
+        .next {
+            right: 115px;
+            border-radius: 3px 0 0 3px;
+        }
+        #sliderImg
+        {
+            width: 100%;
+            height: 350px;
+        }
+        #slide
+        {
+            width: 100%;
+        }
+        #slideImg
+        {
+            width: 100%;
+            height: 200px;
+        }
+        #lostFound
+        {
+            align-items: center;
+            border-top: 3px solid #fff;
+            /*border-bottom: 3px solid #fff;*/
+        }
+        .lsHead h2
+        {
+            font-size: 50px;
+            color: #fff;
+            border-bottom: 2px solid #fff;            
+        }
+        #lostFound .lsImg
+        {
+            padding:10px 30px;
+            margin:20px 30px;
+            align-items: center;
+        }
+        #lostFound img
+        {
+            width: 250px;
+        }
+        #lostFound a:hover img 
+        {
+           /*box-shadow: 5px 1px 10px 2px #fff;*/
+        }
+        .footer
+        {
+            background: #0b0c1e;
+            color: #fff;
+        }
+
+        /*login style*/
+        #Login
+        {
+            background-color: white;
+            margin: 10px;
+        }
+        #loginImg
+        {
+            text-align: center;
+            padding:30px 20px;
+        }
+        #loginImg img
+        {
+            width: 200px;
+            margin: 40px 10px;
+        }
+        #idCard
+        {
+            transition:1s;
+        }
+        #idCard:hover
+        {
+            box-shadow: 1px 1px 30px 8px #0b0c1e;
+        }
+        #loginSec
+        {
+            background: rgba(11,12,30,0.1);
+            /*border-radius: 5px;*/
+            padding: 0px 30px 30px 30px;
+            margin: 20px;
+            transition:1s;
+        }
+        #loginSec h3
+        {
+            color: #0b0c1e;
+        }
+        #loginSec:hover
+        {
+           box-shadow: 1px 1px 30px 8px #0b0c1e;
+        }
+        #loginSec .formHead
+        {
+            text-align: center;
+            background: #0b0c1e;
+            color: #fff;
+            margin: 10px;
+            padding: 2px 0px;
+        }
+        input[type=text], input[type=file], input[type=password], input[type=number], input[type=date], input[type=email]{
+            width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+        }
+
+        .submitButton {
+          background-color: #0b0c1e;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+        }
+
+        .submitButton:hover {
+          opacity: 0.8;
+        }
+        span.psw {
+          float: right;
+          padding-top: 16px;
+        }
+        #LostSec
+        {
+            background: rgba(11,12,30,0.5);
+            border: 2px solid black;
+            margin: 10px 20px;
+            color: white;
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+        }
+        #LostSec:hover
+        {
+            box-shadow: 1px 1px 30px -2px #0b0c1e;
+        }
+        .lostHead
+        {
+            width: 30%;
+            border: 1px solid #0b0c1e;
+        }
+        .lostHead h4
+        {
+            background: #0b0c1e;
+            color: #fff;
+            padding: 10px
+        }
+        .lostHead img
+        {
+            width: 100%;
+            height: 150px;
+        }
+        .LostSec
+        {
+            width: 65%;
+        }
+/*table style*/
+        table
+        {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        #table {
+          border-collapse: collapse;
+          width: 100%;
+
+        }
+
+        #table td, #table th {
+          border-bottom: 1px solid #ddd;
+          padding: 8px;
+        }
+
+        #table tr:nth-child(even){
+            background: rgba(255,255,255,0.2);
+        }
+
+        #table tr:hover {background: rgba(255,255,255,0.4);}
+
+        #table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #4d0726;
+          color: white;
+        }
+
+        @media screen and (max-width: 300px) {
+          span.psw {
+             /*display: block;*/
+             float: none;
+          }
+          .cancelbtn {
+             width: 100%;
+          }
+        }
+        @media only screen and (max-width: 768px)
+        {
+            .logo img
+            {
+                width: 200px;
+                height: 70px;
+                margin: 5px;
+                margin-top: 15px; 
+                padding-left: 20px;
+            }
+            #nav
+            {
+                display: none;
+            }
+            #icon_bar
+            {
+                display: block;
+            }
+            #toggle_iocn
+            {
+                color: white;
+                position: absolute;
+                top: 15px;
+                right: 30px;
+                font-size: 50px;
+
+            }
+            ul li ul.dropdown{
+                display: none;
+                position: absolute;
+                /*z-index: 999;*/
+                left: 100px;
+
+            }
+                #sliderImg
+            {
+                height: 330px;
+            }
+            .next
+            {
+                right: 0px;
+            }
+            #slideImg
+            {
+                height: 150px;
+            }
+            #loginImg
+            {
+                text-align: center;
+                padding:10px 20px;
+            }
+            #loginImg img
+            {
+                width: 100px;
+                margin: 5px 0px;
+            }
+            #loginSec
+            {
+                background: rgba(11,12,30,0.1);
+                /*border-radius: 5px;*/
+                padding: 0px 30px 30px 30px;
+                margin: 10px 10px 20px 10px;
+                transition:1s;
+            }
+            #loginSec:hover
+            {
+               box-shadow: 1px 1px 30px 8px #0b0c1e;
+            }
+            #loginSec .formHead
+            {
+                text-align: center;
+                background: #0b0c1e;
+                color: #fff;
+                margin: 10px;
+                padding: 2px 0px;
+            }
+        }
+        @media (max-width: 414px)
+        {
+        
+        }
+        @media (max-width: 991px)
+        {
+            
+        }
