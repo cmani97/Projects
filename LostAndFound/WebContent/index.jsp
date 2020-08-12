@@ -30,6 +30,21 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/script.js"></script>
+	<style>
+		#aboutSection h3
+        {
+            padding: 10px;
+            margin: 10px;
+            background: lightgray;
+        }
+        #aboutSection p
+        {
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+        }
+	</style>
 </head>
 <body>
 <%
@@ -92,21 +107,36 @@
                 }
             </script>
         </div>
+        
         <div class="lostFound" id="lostFound">
             <div>
                 <div class="lsHead">
                     <h2 align="center">Choose</h2>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11 lsImg">
-                    <a href="lost.html"><img src="img/Lost.png"></a>
+                    <a href=""><img src="img/Lost.png"></a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-11 col-xs-11 lsImg">
+                <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11 lsImg">
                     <img src="img/LostFound.png">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11 lsImg">
-                    <a href="found.html"><img src="img/Found.png"></a>
+                    <a href=""><img src="img/Found.png"></a>
                 </div>
             </div>
+            <div class="" id="aboutSection">
+                <div class="lsHead">
+                    <h2 align="center">About The Lost and Found</h2>
+                </div>
+                <div class="purpose">
+                    <h3 >Purpose</h3>
+                    <p>Welcome to LostAndFound website, the largest and most comprehensive website devoted exclusively to the recovery of pets and personal property. Our sole purpose is to reunite lost and found ID's and Other Things to their respective owners using this wesite. What could be more satisfying than returning their property to their respective owners?</p>
+                </div>
+                <div class="description">
+                    <h3>Description</h3>
+                    <p>LostAndFound website offers visitors a convenient, one-stop source for the exchange of lost and found information including the most comprehensive online database of lost and found id's and other things, on the internet. It features a variety of categories and services that aim to provide users with the necessary tools (some of which are uniquely suited to the Internet) for the effective communication of lost and found information.</p>
+                </div>
+            </div>
+         
         </div>
     </div>
     <jsp:include page="footer.jsp"></jsp:include>

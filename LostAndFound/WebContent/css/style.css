@@ -204,6 +204,19 @@
         {
            /*box-shadow: 5px 1px 10px 2px #fff;*/
         }
+        #aboutSection h3
+        {
+            padding: 10px;
+            margin: 10px;
+            background: lightgray;
+        }
+        #aboutSection p
+        {
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+        }
         .footer
         {
             background: #0b0c1e;
